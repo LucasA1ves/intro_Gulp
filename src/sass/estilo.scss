@@ -1,0 +1,25 @@
+// src/sass/estilo.scss
+
+$cor-principal: #3498db;
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: $cor-principal;
+}
+
+.button {
+    background-color: $cor-principal;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: darken($cor-principal, 10%);
+    }
+}

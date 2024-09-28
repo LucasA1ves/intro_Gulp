@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(()=>{console.log("O documento foi carregado!");document.querySelector(".button").addEventListener("click",(()=>{alert("Botão clicado!")}))}));
